@@ -28,7 +28,7 @@ func NewLogger() (*logrus.Logger, error) {
 
 	log.SetReportCaller(true)
 
-	//Set rotatelogs
+	//Set rotate logs
 	writeMap := createLogWriter(logFilePath)
 
 	lfHook := lfshook.NewHook(writeMap, &logrus.JSONFormatter{
@@ -54,7 +54,7 @@ func caller() func(*runtime.Frame) (function string, file string) {
 }
 
 func createLogWriter(fileName string) lfshook.WriterMap {
-	//Set rotatelogs
+	//Set rotate logs
 	logWriter, _ := rotatelogs.New(
 		//Split file name
 		fileName+"%Y-%m-%d.log",
