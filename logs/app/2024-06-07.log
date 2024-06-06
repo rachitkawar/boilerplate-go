@@ -1,0 +1,343 @@
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:18:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:18:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:18:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:19:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:19:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:19:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:19:54"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:19:54"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"connecting db..","time":"2024-06-07 02:19:54"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:21:44"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:21:44"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"connecting db..","time":"2024-06-07 02:21:44"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:21:52"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:21:52"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"connecting db..","time":"2024-06-07 02:21:52"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:22:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:22:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"connecting db..","time":"2024-06-07 02:22:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:22:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:22:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"connecting db..","time":"2024-06-07 02:22:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:16","level":"info","msg":"started logger...","time":"2024-06-07 02:22:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:18","level":"info","msg":"loading env..","time":"2024-06-07 02:22:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:22:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:16","level":"info","msg":"started logger...","time":"2024-06-07 02:22:36"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:18","level":"info","msg":"loading env..","time":"2024-06-07 02:22:36"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:22:36"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:15","level":"info","msg":"started logger...","time":"2024-06-07 02:23:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"loading env..","time":"2024-06-07 02:23:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:20","level":"info","msg":"connecting db..","time":"2024-06-07 02:23:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:15","level":"info","msg":"started logger...","time":"2024-06-07 02:23:57"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"loading env..","time":"2024-06-07 02:23:57"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"env loaded","time":"2024-06-07 02:23:57"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:23:57"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:15","level":"info","msg":"started logger...","time":"2024-06-07 02:25:18 62:67:180"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"loading env..","time":"2024-06-07 02:25:18 62:67:180"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"env loaded","time":"2024-06-07 02:25:18 62:67:180"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:25:18 62:67:180"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:15","level":"info","msg":"started logger...","time":"2024-06-07 02:25:35"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"loading env..","time":"2024-06-07 02:25:35"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"env loaded","time":"2024-06-07 02:25:35"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"connecting db..","time":"2024-06-07 02:25:35"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:26:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:26:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"env loaded","time":"2024-06-07 02:26:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"connecting db..","time":"2024-06-07 02:26:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:27","level":"info","msg":"time to load the app: 4.7113ms","time":"2024-06-07 02:26:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:26:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:26:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"env loaded","time":"2024-06-07 02:26:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"connecting db..","time":"2024-06-07 02:26:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:27","level":"info","msg":"time to load the app: 5.8058ms","time":"2024-06-07 02:26:43"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:28:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:28:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"env loaded","time":"2024-06-07 02:28:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"connecting db..","time":"2024-06-07 02:28:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:27","level":"info","msg":"time to load the app: 4.7332ms","time":"2024-06-07 02:28:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:29:24"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:29:24"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"env loaded","time":"2024-06-07 02:29:24"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"connecting db..","time":"2024-06-07 02:29:24"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:27","level":"info","msg":"time to load the app: 3.63ms","time":"2024-06-07 02:29:24"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:33:04"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:33:04"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"env loaded","time":"2024-06-07 02:33:04"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"connecting db..","time":"2024-06-07 02:33:04"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:27","level":"info","msg":"time to load the app: 5.2008ms","time":"2024-06-07 02:33:04"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:17","level":"info","msg":"started logger...","time":"2024-06-07 02:33:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"loading env..","time":"2024-06-07 02:33:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"env loaded","time":"2024-06-07 02:33:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"connecting db..","time":"2024-06-07 02:33:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:27","level":"info","msg":"time to load the app: 4.1563ms","time":"2024-06-07 02:33:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:18","level":"info","msg":"started logger...","time":"2024-06-07 03:01:51"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:20","level":"info","msg":"loading env..","time":"2024-06-07 03:01:51"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"env loaded","time":"2024-06-07 03:01:51"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:24","level":"info","msg":"connecting db..","time":"2024-06-07 03:01:51"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:28","level":"info","msg":"time to load the app: 4.1479ms 2","time":"2024-06-07 03:01:51"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:18","level":"info","msg":"started logger...","time":"2024-06-07 03:02:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:20","level":"info","msg":"loading env..","time":"2024-06-07 03:02:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"env loaded","time":"2024-06-07 03:02:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:24","level":"info","msg":"connecting db..","time":"2024-06-07 03:02:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:28","level":"info","msg":"time to load the app: 4.1907ms 2","time":"2024-06-07 03:02:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:18","level":"info","msg":"started logger...","time":"2024-06-07 03:02:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:20","level":"info","msg":"loading env..","time":"2024-06-07 03:02:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:22","level":"info","msg":"env loaded","time":"2024-06-07 03:02:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:24","level":"info","msg":"connecting db..","time":"2024-06-07 03:02:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:28","level":"info","msg":"time to load the app: 4.1618ms 2","time":"2024-06-07 03:02:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:02:55"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:02:55"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:02:55"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:02:55"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.6848ms 2","time":"2024-06-07 03:02:55"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:03:56"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:03:56"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:03:56"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:03:56"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.1094ms 2","time":"2024-06-07 03:03:56"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:04:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:04:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:04:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:04:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.1439ms 2","time":"2024-06-07 03:04:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:04:21"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:04:21"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:04:21"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:04:21"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.6235ms 2","time":"2024-06-07 03:04:21"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:05:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:05:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:05:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:05:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.7667ms 2","time":"2024-06-07 03:05:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/internal/server/router.go:32","level":"fatal","msg":"listen tcp: address 8080: missing port in address","time":"2024-06-07 03:05:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:06:39"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:06:39"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:06:39"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:06:39"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.6628ms 2","time":"2024-06-07 03:06:39"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:07:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:07:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:07:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:07:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:29","level":"info","msg":"time to load the app: 4.2671ms 2","time":"2024-06-07 03:07:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:07:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:07:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:07:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:07:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:08:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:08:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:08:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:08:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:10:11"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:10:11"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:10:11"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:10:11"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:12:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:12:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:12:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:12:18"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:14:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:14:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:14:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:14:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:17:15"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:17:15"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:17:15"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:17:15"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.6472ms 2","time":"2024-06-07 03:17:15"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:18:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:18:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:18:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:18:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.7119ms 2","time":"2024-06-07 03:18:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:18:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:18:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:18:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:18:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.6814ms 2","time":"2024-06-07 03:18:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:18:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:18:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:18:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:18:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 3.6513ms 2","time":"2024-06-07 03:18:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:20:10"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:20:10"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:20:10"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:20:10"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.4812ms 2","time":"2024-06-07 03:20:10"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:22:12"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:22:12"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:22:12"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:22:12"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.1797ms 2","time":"2024-06-07 03:22:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:22:31"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:22:31"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:22:31"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:22:31"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/cmd/app/main.go:33","level":"info","msg":"time to load the app: 5.8456ms 2","time":"2024-06-07 03:22:31"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:23:22"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:23:22"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:23:22"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:23:22"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.3441ms 2","time":"2024-06-07 03:23:22"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:25:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:25:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:25:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:25:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.5488ms 2","time":"2024-06-07 03:25:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:25:58"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:25:58"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:25:58"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:25:58"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.8381ms 2","time":"2024-06-07 03:25:58"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:19","level":"info","msg":"started logger...","time":"2024-06-07 03:26:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:21","level":"info","msg":"loading env..","time":"2024-06-07 03:26:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:23","level":"info","msg":"env loaded","time":"2024-06-07 03:26:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"connecting db..","time":"2024-06-07 03:26:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:33","level":"info","msg":"time to load the app: 4.1849ms 2","time":"2024-06-07 03:26:25"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:31:38"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:31:38"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:31:38"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:31:38"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 5.3158ms 2","time":"2024-06-07 03:31:38"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:33:09"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:33:09"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:33:09"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:33:09"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 4.6762ms 2","time":"2024-06-07 03:33:09"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:33:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:33:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:33:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:33:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 5.3369ms 2","time":"2024-06-07 03:33:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:43:41"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:43:41"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:43:41"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:43:41"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 5.2739ms 2","time":"2024-06-07 03:43:41"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:44:02"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:44:02"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:44:02"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:44:02"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 4.616ms 2","time":"2024-06-07 03:44:02"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:44:06"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:44:06"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:44:06"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:44:06"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 4.6334ms 2","time":"2024-06-07 03:44:06"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:44:32"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:44:32"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:44:32"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:44:32"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 4.5308ms 2","time":"2024-06-07 03:44:32"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:20","level":"info","msg":"started logger...","time":"2024-06-07 03:44:45"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:22","level":"info","msg":"loading env..","time":"2024-06-07 03:44:45"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"env loaded","time":"2024-06-07 03:44:45"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"connecting db..","time":"2024-06-07 03:44:45"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:36","level":"info","msg":"time to load the app: 4.6877ms 2","time":"2024-06-07 03:44:45"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:21","level":"info","msg":"started logger...","time":"2024-06-07 03:46:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:23","level":"info","msg":"loading env..","time":"2024-06-07 03:46:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"env loaded","time":"2024-06-07 03:46:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:27","level":"info","msg":"connecting db..","time":"2024-06-07 03:46:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:37","level":"info","msg":"time to load the app: 4.7835ms 2","time":"2024-06-07 03:46:00"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:48:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:48:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:48:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:48:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.7573ms 2","time":"2024-06-07 03:48:16"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:48:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:48:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:48:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:48:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.7395ms 2","time":"2024-06-07 03:48:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:48:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:48:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:48:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:48:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 6.5567ms 2","time":"2024-06-07 03:48:30"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:49:03"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:49:03"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:49:03"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:49:03"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.6985ms 2","time":"2024-06-07 03:49:03"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:49:26"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:49:26"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:49:26"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:49:26"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.1672ms 2","time":"2024-06-07 03:49:26"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:46","level":"info","msg":"shutting down everything","time":"2024-06-07 03:49:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:53:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:53:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:53:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:53:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 5.2782ms 2","time":"2024-06-07 03:53:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:53:20"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:53:20"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:53:20"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:53:20"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:53:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:53:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:53:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:53:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.7665ms 2","time":"2024-06-07 03:53:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:54:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:54:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:54:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:54:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.1469ms 2","time":"2024-06-07 03:54:08"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:47","level":"info","msg":"shutting down everything in 10 seconds","time":"2024-06-07 03:54:11"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:54:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:54:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:54:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:54:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.5964ms 2","time":"2024-06-07 03:54:46"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:47","level":"info","msg":"shutting down everything in 10 seconds","time":"2024-06-07 03:54:47"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:55:34"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:55:34"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:55:34"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:55:34"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.7487ms 2","time":"2024-06-07 03:55:34"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:48","level":"info","msg":"shutting down everything in 10 seconds","time":"2024-06-07 03:55:47"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:24","level":"info","msg":"started logger...","time":"2024-06-07 03:57:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"loading env..","time":"2024-06-07 03:57:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"env loaded","time":"2024-06-07 03:57:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"connecting db..","time":"2024-06-07 03:57:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:40","level":"info","msg":"time to load the app: 4.1674ms 2","time":"2024-06-07 03:57:13"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:47","level":"info","msg":"shutting down everything in 10 seconds","time":"2024-06-07 03:57:14"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"started logger...","time":"2024-06-07 04:01:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"loading env..","time":"2024-06-07 04:01:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"env loaded","time":"2024-06-07 04:01:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:32","level":"info","msg":"connecting db..","time":"2024-06-07 04:01:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:46","level":"info","msg":"time to load the app: 5.743ms 2","time":"2024-06-07 04:01:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:53","level":"info","msg":"shutting down everything in 10 seconds","time":"2024-06-07 04:01:41"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"started logger...","time":"2024-06-07 04:03:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"loading env..","time":"2024-06-07 04:03:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"env loaded","time":"2024-06-07 04:03:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:32","level":"info","msg":"connecting db..","time":"2024-06-07 04:03:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:42","level":"info","msg":"time to load the app: 4.1856ms 2","time":"2024-06-07 04:03:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/internal/server/router.go:51","level":"fatal","msg":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.","time":"2024-06-07 04:03:23"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"started logger...","time":"2024-06-07 04:03:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"loading env..","time":"2024-06-07 04:03:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"env loaded","time":"2024-06-07 04:03:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:32","level":"info","msg":"connecting db..","time":"2024-06-07 04:03:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:42","level":"info","msg":"time to load the app: 4.2286ms 2","time":"2024-06-07 04:03:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/internal/server/router.go:51","level":"fatal","msg":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.","time":"2024-06-07 04:03:33"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:26","level":"info","msg":"started logger...","time":"2024-06-07 04:04:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:28","level":"info","msg":"loading env..","time":"2024-06-07 04:04:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:30","level":"info","msg":"env loaded","time":"2024-06-07 04:04:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:32","level":"info","msg":"connecting db..","time":"2024-06-07 04:04:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:42","level":"info","msg":"time to load the app: 4.7126ms 2","time":"2024-06-07 04:04:40"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"started logger...","time":"2024-06-07 04:04:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:27","level":"info","msg":"loading env..","time":"2024-06-07 04:04:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:29","level":"info","msg":"env loaded","time":"2024-06-07 04:04:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:31","level":"info","msg":"connecting db..","time":"2024-06-07 04:04:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:41","level":"info","msg":"time to load the app: 4.2456ms 2","time":"2024-06-07 04:04:48"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:45","level":"info","msg":"shutting down everything in 10 seconds","time":"2024-06-07 04:05:02"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:25","level":"info","msg":"started logger...","time":"2024-06-07 04:05:28"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:27","level":"info","msg":"loading env..","time":"2024-06-07 04:05:28"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:29","level":"info","msg":"env loaded","time":"2024-06-07 04:05:28"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:31","level":"info","msg":"connecting db..","time":"2024-06-07 04:05:28"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:41","level":"info","msg":"time to load the app: 4.5048ms 2","time":"2024-06-07 04:05:28"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:45","level":"info","msg":"shutting down everything","time":"2024-06-07 04:05:29"}
+{"caller":"C:/Users/Rachit/Documents/Projects/AuthSystem/src/cmd/app/main.go:51","level":"info","msg":"api server closed","time":"2024-06-07 04:05:29"}
