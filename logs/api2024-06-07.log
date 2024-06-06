@@ -1,4 +1,0 @@
-{"client_ip":"::1","latency_time(ms)":0,"level":"info","msg":"","req_method":"GET","req_uri":"/api/v1/auth/test","status_code":200,"time":"2024-06-07 03:18:01"}
-{"client_ip":"::1","latency_time(ms)":0,"level":"info","msg":"","req_method":"GET","req_uri":"/favicon.ico","status_code":404,"time":"2024-06-07 03:18:02"}
-{"client_ip":"::1","latency_time(ms)":0,"level":"info","msg":"","req_method":"GET","req_uri":"/api/v1/auth/test","status_code":200,"time":"2024-06-07 03:18:51"}
-{"client_ip":"::1","latency_time(ms)":0,"level":"info","msg":"","req_method":"GET","req_uri":"/api/v1/auth/test","status_code":200,"time":"2024-06-07 03:22:17"}
