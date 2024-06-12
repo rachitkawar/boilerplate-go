@@ -6,5 +6,7 @@ import (
 )
 
 func (router *V1) TestHandler(c *gin.Context) {
+
+	router.srv.Auth.Login()
 	c.JSON(http.StatusOK, gin.H{"message": "heelo"})
 }

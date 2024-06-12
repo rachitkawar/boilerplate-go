@@ -64,7 +64,7 @@ func (d *DB) GetUserByEmail(Email string) (*models.UserDb, error) {
 	return &user, err
 }
 
-func (d *DB) AddUser(user *models.UserDb) error {
+func (d *DB) CreateUser(user *models.UserDb) error {
 	query := `insert into users (first_name , last_name, email, phone_number ,password ,role_id ,  created_at) 
 				values (@first_name , @last_name, @email, @phone_number ,@password ,@role_id, @created_at)`
 	args := pgx.NamedArgs{

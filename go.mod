@@ -3,8 +3,10 @@ module github.com/rachitkawar/boilerplate-go
 go 1.22.4
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-gonic/gin v1.10.0
+	github.com/golang-migrate/migrate/v4 v4.17.1
 	github.com/jackc/pgx/v5 v5.6.0
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
@@ -25,7 +27,6 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.21.0 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
-	github.com/golang-migrate/migrate/v4 v4.17.1 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect

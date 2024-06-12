@@ -2,15 +2,19 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/rachitkawar/boilerplate-go/src/internal/domain"
 )
 
 type V1 struct {
 	//all the domain mapping here
+	srv *domain.Service
 }
 
-func InitializeV1Routes(api *gin.RouterGroup) {
+func InitializeV1Routes(api *gin.RouterGroup, srv *domain.Service) {
 
-	v1 := V1{}
+	v1 := V1{
+		srv: srv,
+	}
 	v1.registerRoutesV1(api)
 }
 

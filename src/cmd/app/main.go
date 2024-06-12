@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"github.com/rachitkawar/boilerplate-go/src/internal/domain"
 	"github.com/rachitkawar/boilerplate-go/src/internal/server"
 	"github.com/rachitkawar/boilerplate-go/src/utils"
 	"go.opencensus.io/trace"
@@ -29,9 +30,17 @@ func main() {
 
 	utils.Log.Info("connecting db..")
 
-	database.InitDB(ctx)
+	var db database.Store = database.InitDB(ctx)
 
-	apiServer := server.InitializeServer()
+	utils.Log.Info("db connected")
+
+	defer db.Close()
+
+	utils.Log.Info("creating domain references")
+
+	srv := domain.NewService(db)
+
+	apiServer := server.InitializeServer(srv)
 
 	go apiServer.Run(":8080")
 

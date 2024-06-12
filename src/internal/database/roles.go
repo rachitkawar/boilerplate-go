@@ -46,7 +46,7 @@ func (d *DB) GetRoleById(Id int) (*models.RolesDb, error) {
 	return &role, err
 }
 
-func (d *DB) AddRole(role *models.RolesDb) error {
+func (d *DB) CreateRole(role *models.RolesDb) error {
 	query := `insert into roles (name , created_at) 
 				values (@name , @created_at)`
 	args := pgx.NamedArgs{

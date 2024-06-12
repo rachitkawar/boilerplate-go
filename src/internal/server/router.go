@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/rachitkawar/boilerplate-go/src/internal/domain"
 	v1 "github.com/rachitkawar/boilerplate-go/src/internal/server/v1"
 	"github.com/rachitkawar/boilerplate-go/src/utils"
 	"net/http"
@@ -12,14 +13,19 @@ import (
 type Server struct {
 	router     *gin.Engine
 	httpServer *http.Server
+	srv        *domain.Service
 }
 
-func InitializeServer() *Server {
+func InitializeServer(
+	srv *domain.Service,
+
+) *Server {
 	gin.SetMode(utils.GetEnv("GIN_MODE"))
 	router := gin.New()
 
 	server := &Server{
 		router: router,
+		srv:    srv,
 	}
 	server.setupMiddleware()
 	server.setupErrorHandling()
@@ -78,5 +84,5 @@ func (s *Server) setupRoutes() {
 	api := s.router.Group("/api")
 
 	//pass the pointer address for all the domains required
-	v1.InitializeV1Routes(api)
+	v1.InitializeV1Routes(api, s.srv)
 }

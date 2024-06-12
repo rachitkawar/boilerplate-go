@@ -95,7 +95,7 @@ func (d *DB) UpdatePermission(permission *models.PermissionsDb) error {
 
 }
 
-func (d *DB) AddPermission(permission *models.PermissionsDb) error {
+func (d *DB) CreatePermission(permission *models.PermissionsDb) error {
 	query := `insert into permissions (name , role_id , created_at) 
 				values (@name , @role_id , @created_at)`
 	args := pgx.NamedArgs{

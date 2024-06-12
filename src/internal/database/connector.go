@@ -20,3 +20,7 @@ func InitDB(ctx context.Context) *DB {
 
 	return &DB{db: db, ctx: ctx}
 }
+
+func (d *DB) Close() {
+	d.db.Close()
+}
