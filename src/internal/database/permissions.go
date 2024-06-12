@@ -5,8 +5,8 @@ package database
 import (
 	"fmt"
 	"github.com/jackc/pgx/v5"
-	"github.com/rachitkawar/boilerplate-go/src/common"
 	"github.com/rachitkawar/boilerplate-go/src/internal/models"
+	"github.com/rachitkawar/boilerplate-go/src/utils"
 )
 
 func (d *DB) GetAllPermissions() (*[]models.PermissionsDb, error) {
@@ -14,13 +14,13 @@ func (d *DB) GetAllPermissions() (*[]models.PermissionsDb, error) {
 	result, err := d.db.Query(d.ctx, query)
 	defer result.Close()
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return nil, fmt.Errorf("unable to query permissions: %w", err)
 	}
 
 	permissions, err := pgx.CollectRows(result, pgx.RowToStructByName[models.PermissionsDb])
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return nil, fmt.Errorf("unable to scan the query for permissions: %w", err)
 	}
 	return &permissions, err
@@ -34,13 +34,13 @@ func (d *DB) GetPermissionById(Id int) (*models.PermissionsDb, error) {
 	result, err := d.db.Query(d.ctx, query, args)
 	defer result.Close()
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return nil, fmt.Errorf("unable to query permissions: %w", err)
 	}
 
 	permission, err := pgx.CollectExactlyOneRow(result, pgx.RowToStructByName[models.PermissionsDb])
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return nil, fmt.Errorf("unable to scan the query for permissions: %w", err)
 	}
 	return &permission, err
@@ -54,13 +54,13 @@ func (d *DB) GetPermissionByName(name string) (*models.PermissionsDb, error) {
 	result, err := d.db.Query(d.ctx, query, args)
 	defer result.Close()
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return nil, fmt.Errorf("unable to query permissions: %w", err)
 	}
 
 	permission, err := pgx.CollectExactlyOneRow(result, pgx.RowToStructByName[models.PermissionsDb])
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return nil, fmt.Errorf("unable to scan the query for permissions: %w", err)
 	}
 	return &permission, err
@@ -73,7 +73,7 @@ func (d *DB) DeletePermission(Id int) error {
 	}
 	_, err := d.db.Exec(d.ctx, query, args)
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return fmt.Errorf("unable to delete permission: %w", err)
 	}
 	return nil
@@ -88,7 +88,7 @@ func (d *DB) UpdatePermission(permission *models.PermissionsDb) error {
 	}
 	_, err := d.db.Exec(d.ctx, query, args)
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return fmt.Errorf("unable to update permission: %w", err)
 	}
 	return nil
@@ -105,7 +105,7 @@ func (d *DB) AddPermission(permission *models.PermissionsDb) error {
 	}
 	_, err := d.db.Exec(d.ctx, query, args)
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return fmt.Errorf("unable to add permission: %w", err)
 	}
 	return nil
@@ -120,7 +120,7 @@ func (d *DB) CheckPermissionOnRoleId(roleId int, permissionName string) (bool, e
 	result, err := d.db.Query(d.ctx, query, args)
 	defer result.Close()
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return false, fmt.Errorf("unable to query permissions: %w", err)
 	}
 
@@ -128,7 +128,7 @@ func (d *DB) CheckPermissionOnRoleId(roleId int, permissionName string) (bool, e
 	if result.Next() {
 		err = result.Scan(&exists)
 		if err != nil {
-			common.Log.Error(err)
+			utils.Log.Error(err)
 			return false, fmt.Errorf("unable to scan the query for permissions: %w", err)
 		}
 	}

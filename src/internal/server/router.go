@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/rachitkawar/boilerplate-go/src/common"
 	v1 "github.com/rachitkawar/boilerplate-go/src/internal/server/v1"
+	"github.com/rachitkawar/boilerplate-go/src/utils"
 	"net/http"
 )
 
@@ -15,7 +15,7 @@ type Server struct {
 }
 
 func InitializeServer() *Server {
-	gin.SetMode(common.GetEnv("GIN_MODE"))
+	gin.SetMode(utils.GetEnv("GIN_MODE"))
 	router := gin.New()
 
 	server := &Server{
@@ -32,7 +32,7 @@ func InitializeServer() *Server {
 func (s *Server) Shutdown(ctx context.Context) error {
 	err := s.httpServer.Shutdown(ctx)
 	if err != nil {
-		common.Log.Error(err)
+		utils.Log.Error(err)
 		return err
 	}
 	return nil
@@ -45,7 +45,7 @@ func (s *Server) Run(Port string) {
 	}
 	err := s.router.Run(Port)
 	if err != nil {
-		common.Log.Fatal(err)
+		utils.Log.Fatal(err)
 	}
 
 }

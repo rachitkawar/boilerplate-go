@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/rachitkawar/boilerplate-go/src/common"
+	"github.com/rachitkawar/boilerplate-go/src/utils"
 )
 
 type DB struct {
@@ -13,9 +13,9 @@ type DB struct {
 
 func InitDB(ctx context.Context) *DB {
 	var err error
-	db, err := pgxpool.New(ctx, common.GetEnv("DSN"))
+	db, err := pgxpool.New(ctx, utils.GetEnv("DSN"))
 	if err != nil {
-		common.Log.Fatal("Unable to connect to database: %v\n", err)
+		utils.Log.Fatal("Unable to connect to database: %v\n", err)
 	}
 
 	return &DB{db: db, ctx: ctx}

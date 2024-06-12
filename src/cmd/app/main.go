@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"github.com/rachitkawar/boilerplate-go/src/common"
 	"github.com/rachitkawar/boilerplate-go/src/internal/server"
+	"github.com/rachitkawar/boilerplate-go/src/utils"
 	"go.opencensus.io/trace"
 	"os/signal"
 	"syscall"
@@ -19,15 +19,15 @@ func main() {
 
 	start := time.Now()
 
-	common.InitialiseLogger()
+	utils.InitialiseLogger()
 
-	common.Log.Info("started logger...")
+	utils.Log.Info("started logger...")
 
-	common.Log.Info("loading env..")
-	common.InitConfig()
-	common.Log.Info("env loaded")
+	utils.Log.Info("loading env..")
+	utils.InitConfig()
+	utils.Log.Info("env loaded")
 
-	common.Log.Info("connecting db..")
+	utils.Log.Info("connecting db..")
 
 	database.InitDB(ctx)
 
@@ -35,18 +35,18 @@ func main() {
 
 	go apiServer.Run(":8080")
 
-	common.Log.Info("time to load the app: ", time.Now().Sub(start), trace.StatusCodeUnknown)
+	utils.Log.Info("time to load the app: ", time.Now().Sub(start), trace.StatusCodeUnknown)
 
 	select {
 	case <-ctx.Done():
-		common.Log.Info("shutting down everything")
+		utils.Log.Info("shutting down everything")
 
 		err := apiServer.Shutdown(ctx)
 		if err != nil {
-			common.Log.Error("error shutting api server ", err)
+			utils.Log.Error("error shutting api server ", err)
 		}
 
-		common.Log.Info("api server closed")
+		utils.Log.Info("api server closed")
 
 	}
 

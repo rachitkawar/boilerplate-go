@@ -1,9 +1,9 @@
 
 migrations-up:
-	go run src/cmd/scripts/migration-up/migration-up.go
+	go run src/cmd/scripts/migration-up/main.go
 
 migrations-down:
-	go run src/cmd/scripts/migration-down/migration-down.go
+	go run src/cmd/scripts/migration-down/main.go
 
 # make migrations-create table_name=profile
 migrations-create:
