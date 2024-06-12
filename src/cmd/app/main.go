@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"github.com/rachitkawar/boilerplate-go/src/common"
-	"github.com/rachitkawar/boilerplate-go/src/internal/domain/jwt"
 	"github.com/rachitkawar/boilerplate-go/src/internal/server"
 	"go.opencensus.io/trace"
 	"os/signal"
@@ -32,9 +31,7 @@ func main() {
 
 	database.InitDB(ctx)
 
-	jwtDomain := &jwt.TokenMaster{SecretKey: "f"}
-
-	apiServer := server.InitializeServer(jwtDomain)
+	apiServer := server.InitializeServer()
 
 	go apiServer.Run(":8080")
 
@@ -52,4 +49,5 @@ func main() {
 		common.Log.Info("api server closed")
 
 	}
+
 }

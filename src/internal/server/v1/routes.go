@@ -2,19 +2,15 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/rachitkawar/boilerplate-go/src/internal/domain/jwt"
 )
 
 type V1 struct {
 	//all the domain mapping here
-	jwt *jwt.TokenMaster
 }
 
-func InitializeV1Routes(api *gin.RouterGroup, jwt *jwt.TokenMaster) {
+func InitializeV1Routes(api *gin.RouterGroup) {
 
-	v1 := V1{
-		jwt: jwt,
-	}
+	v1 := V1{}
 	v1.registerRoutesV1(api)
 }
 

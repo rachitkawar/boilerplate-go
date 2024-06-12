@@ -5,7 +5,6 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/rachitkawar/boilerplate-go/src/common"
-	"github.com/rachitkawar/boilerplate-go/src/internal/domain/jwt"
 	v1 "github.com/rachitkawar/boilerplate-go/src/internal/server/v1"
 	"net/http"
 )
@@ -13,16 +12,14 @@ import (
 type Server struct {
 	router     *gin.Engine
 	httpServer *http.Server
-	v1Jwt      *jwt.TokenMaster
 }
 
-func InitializeServer(v1Jwt *jwt.TokenMaster) *Server {
+func InitializeServer() *Server {
 	gin.SetMode(common.GetEnv("GIN_MODE"))
 	router := gin.New()
 
 	server := &Server{
 		router: router,
-		v1Jwt:  v1Jwt,
 	}
 	server.setupMiddleware()
 	server.setupErrorHandling()
@@ -81,5 +78,5 @@ func (s *Server) setupRoutes() {
 	api := s.router.Group("/api")
 
 	//pass the pointer address for all the domains required
-	v1.InitializeV1Routes(api, s.v1Jwt)
+	v1.InitializeV1Routes(api)
 }
