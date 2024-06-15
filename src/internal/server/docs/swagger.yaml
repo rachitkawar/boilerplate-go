@@ -1,0 +1,65 @@
+definitions:
+  models.SignupRequest:
+    properties:
+      email:
+        type: string
+      first_name:
+        type: string
+      last_name:
+        type: string
+      password:
+        type: string
+      phone_number:
+        type: string
+    required:
+    - email
+    - first_name
+    - last_name
+    - password
+    type: object
+  utils.ApiResponse:
+    properties:
+      code:
+        type: string
+      data: {}
+      error: {}
+      message:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/auth/signup:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Add user
+        in: body
+        name: SignupRequest
+        required: true
+        schema:
+          $ref: '#/definitions/models.SignupRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/utils.ApiResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/utils.ApiResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/utils.ApiResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/utils.ApiResponse'
+      summary: User Signup
+      tags:
+      - Signup
+swagger: "2.0"

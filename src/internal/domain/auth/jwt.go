@@ -10,13 +10,14 @@ import (
 	"time"
 )
 
-func (a *AuthSrv) generateToken(user *models.UserDb) (string, error) {
+func (a *AuthSrv) generateToken(user *models.UserDb, verified bool) (string, error) {
 	claims := &models.Claims{
 		UserId:    user.Id,
 		Email:     user.Email,
 		RoleId:    user.RoleId,
 		FirstName: user.FirstName,
 		LastName:  user.LastName,
+		Verified:  verified,
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(time.Hour * 24).Unix(),
 		},

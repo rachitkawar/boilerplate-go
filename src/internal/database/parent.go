@@ -7,9 +7,11 @@ type Store interface {
 
 	GetAllUsers() (*[]models.UserDb, error)
 	GetUserById(int) (*models.UserDb, error)
+	GetUserByEmail(string) (*models.UserDb, error)
 	CreateUser(user *models.UserDb) error
 	UpdateUser(user *models.UserDb) error
 	DeleteUser(int) error
+	CheckUserByEmail(string) (bool, error)
 
 	GetAllRoles() (*[]models.RolesDb, error)
 	GetRoleById(int) (*models.RolesDb, error)

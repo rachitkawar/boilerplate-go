@@ -117,3 +117,27 @@ func (d *DB) DeleteUser(Id int) error {
 	}
 	return nil
 }
+
+func (d *DB) CheckUserByEmail(Email string) (bool, error) {
+	query := `select exists(select 1 from users where email = @email)`
+	args := pgx.NamedArgs{
+		"email": Email,
+	}
+	result, err := d.db.Query(d.ctx, query, args)
+	defer result.Close()
+	if err != nil {
+		utils.Log.Error(err)
+		return false, fmt.Errorf("unable to query users: %w", err)
+	}
+
+	var exists bool
+	if result.Next() {
+		err = result.Scan(&exists)
+		if err != nil {
+			utils.Log.Error(err)
+			return false, fmt.Errorf("unable to scan the query for users: %w", err)
+		}
+	}
+	return exists, nil
+
+}

@@ -23,10 +23,18 @@ func (router *V1) registerRoutesV1(api *gin.RouterGroup) {
 
 	auth := rg.Group("/auth")
 	{
-		auth.GET("/test", router.TestHandler)
 		auth.POST("/signup")
 		auth.POST("/login")
 		auth.POST("/verify")
+		auth.POST("/logout")
+	}
+
+	roles := rg.Group("/roles")
+	{
+		roles.GET("/list")
+		roles.POST("/create")
+		roles.POST("/update")
+		roles.POST("/delete")
 	}
 
 }

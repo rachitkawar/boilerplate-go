@@ -5,8 +5,11 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/rachitkawar/boilerplate-go/src/internal/domain"
+	"github.com/rachitkawar/boilerplate-go/src/internal/server/docs"
 	v1 "github.com/rachitkawar/boilerplate-go/src/internal/server/v1"
 	"github.com/rachitkawar/boilerplate-go/src/utils"
+	swaggerFiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 	"net/http"
 )
 
@@ -30,9 +33,21 @@ func InitializeServer(
 	server.setupMiddleware()
 	server.setupErrorHandling()
 	server.setupRoutes()
+	server.setupDocs()
 
 	return server
 
+}
+
+func (s *Server) setupDocs() {
+	docs.SwaggerInfo.Title = "API documentation"
+	docs.SwaggerInfo.Description = "API Documentation for Basic Auth server"
+	docs.SwaggerInfo.Version = "1.0"
+	docs.SwaggerInfo.Host = "authSystem.swagger.io"
+	docs.SwaggerInfo.BasePath = "/"
+	docs.SwaggerInfo.Schemes = []string{"http", "https"}
+	s.router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+	//	http://localhost:8080/swagger/index.html
 }
 
 func (s *Server) Shutdown(ctx context.Context) error {
@@ -81,6 +96,7 @@ func (s *Server) setupErrorHandling() {
 
 // setupRoutes defines the routes for the application
 func (s *Server) setupRoutes() {
+
 	api := s.router.Group("/api")
 
 	//pass the pointer address for all the domains required

@@ -6,6 +6,7 @@ import (
 	"github.com/rachitkawar/boilerplate-go/src/internal/server"
 	"github.com/rachitkawar/boilerplate-go/src/utils"
 	"go.opencensus.io/trace"
+	_ "go.uber.org/automaxprocs"
 	"os/signal"
 	"syscall"
 	"time"
@@ -39,6 +40,8 @@ func main() {
 	utils.Log.Info("creating domain references")
 
 	srv := domain.NewService(db)
+
+	utils.Log.Info("creating api server instance")
 
 	apiServer := server.InitializeServer(srv)
 
