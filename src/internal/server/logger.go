@@ -41,7 +41,7 @@ func Logger() gin.HandlerFunc {
 		reqMethod := c.Request.Method
 
 		//Request routing
-		reqUri := c.Request.RequestURI
+		reqUri := c.Request.URL.Path
 
 		// status code
 		statusCode := c.Writer.Status()

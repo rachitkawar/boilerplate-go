@@ -10,14 +10,15 @@ import (
 	"time"
 )
 
-func (a *AuthSrv) generateToken(user *models.UserDb, verified bool) (string, error) {
+func (a *AuthSrv) generateToken(user *models.UserDb, verified bool, profileComplete bool) (string, error) {
 	claims := &models.Claims{
-		UserId:    user.Id,
-		Email:     user.Email,
-		RoleId:    user.RoleId,
-		FirstName: user.FirstName,
-		LastName:  user.LastName,
-		Verified:  verified,
+		UserId:          user.Id,
+		Email:           user.Email,
+		RoleId:          user.RoleId,
+		FirstName:       user.FirstName,
+		LastName:        user.LastName,
+		Verified:        verified,
+		ProfileComplete: profileComplete,
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(time.Hour * 24).Unix(),
 		},
@@ -25,7 +26,8 @@ func (a *AuthSrv) generateToken(user *models.UserDb, verified bool) (string, err
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 
-	return token.SignedString(utils.GetEnv("JWT_SECRET"))
+	//signed token
+	return token.SignedString([]byte(utils.GetEnv("JWT_SECRET")))
 }
 
 func (a *AuthSrv) verifyToken(tokenString string) (*models.Claims, error) {
@@ -35,7 +37,7 @@ func (a *AuthSrv) verifyToken(tokenString string) (*models.Claims, error) {
 			utils.Log.Error("unexpected signing method")
 			return nil, fmt.Errorf("unexpected signing method: %v", token.Header["alg"])
 		}
-		return utils.GetEnv("JWT_SECRET"), nil
+		return []byte(utils.GetEnv("JWT_SECRET")), nil
 	})
 
 	if err != nil {

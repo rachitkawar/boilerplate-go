@@ -56,7 +56,7 @@ func (router *V1) Login(c *gin.Context) {
 		return
 	}
 
-	loginResponse, err := router.srv.Auth.Login()
+	loginResponse, err := router.srv.Auth.Login(&loginRequest)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, utils.NewApiResponse(utils.ApiResponseCode.ERROR, "Internal server error", nil, err))
 		return

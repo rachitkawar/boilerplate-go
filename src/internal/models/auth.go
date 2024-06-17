@@ -12,12 +12,13 @@ type LoginResponse struct {
 }
 
 type Claims struct {
-	UserId    int    `json:"user_id"`
-	RoleId    int    `json:"role_id"`
-	Email     string `json:"email"`
-	FirstName string `json:"first_name"`
-	LastName  string `json:"last_name"`
-	Verified  bool   `json:"verified"`
+	UserId          int    `json:"user_id"`
+	RoleId          int    `json:"role_id"`
+	Email           string `json:"email"`
+	FirstName       string `json:"first_name"`
+	LastName        string `json:"last_name"`
+	Verified        bool   `json:"verified"`
+	ProfileComplete bool   `json:"profile_complete"`
 	jwt.StandardClaims
 }
 
@@ -44,4 +45,20 @@ type VerifyResponse struct {
 	FirstName string `json:"first_name"`
 	LastName  string `json:"last_name"`
 	Verified  bool   `json:"verified"`
+}
+
+type GoogleLoginRequest struct {
+	Id            string `json:"id"`
+	Email         string `json:"email"`
+	VerifiedEmail bool   `json:"verified_email"`
+	Name          string `json:"name"`
+	GivenName     string `json:"given_name"`
+	FamilyName    string `json:"family_name"`
+	Picture       string `json:"picture"`
+}
+
+type SocialLoginModel struct {
+	Email     string `json:"email"`
+	FirstName string `json:"first_name"`
+	LastName  string `json:"last_name"`
 }

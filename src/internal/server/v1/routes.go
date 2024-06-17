@@ -7,13 +7,15 @@ import (
 
 type V1 struct {
 	//all the domain mapping here
-	srv *domain.Service
+	srv          *domain.Service
+	socialLogins *SocialLogin
 }
 
 func InitializeV1Routes(api *gin.RouterGroup, srv *domain.Service) {
 
 	v1 := V1{
-		srv: srv,
+		srv:          srv,
+		socialLogins: NewSocialLogins(srv.Auth),
 	}
 	v1.registerRoutesV1(api)
 }
@@ -23,10 +25,20 @@ func (router *V1) registerRoutesV1(api *gin.RouterGroup) {
 
 	auth := rg.Group("/auth")
 	{
-		auth.POST("/signup")
-		auth.POST("/login")
-		auth.POST("/verify")
-		auth.POST("/logout")
+		auth.POST("/signup", router.Signup)
+		auth.POST("/login", router.Login)
+		auth.POST("/verify", router.Verify)
+		auth.POST("/logout", router.Logout)
+
+		socialLogins := auth.Group("/socialLogin")
+		{
+			google := socialLogins.Group("/google")
+			{
+				google.GET("/login", router.socialLogins.Google.SocialLogin)
+
+				google.GET("/callback", router.socialLogins.Google.SocialLoginCallback)
+			}
+		}
 	}
 
 	roles := rg.Group("/roles")
