@@ -80,6 +80,7 @@ func (s *Server) setupMiddleware() {
 	config.AllowMethods = []string{"GET", "POST", "PUT", "DELETE"}
 	s.router.Use(cors.New(config))
 	// Add any custom middleware here
+
 }
 
 // setupErrorHandling manages error handling for the Gin router

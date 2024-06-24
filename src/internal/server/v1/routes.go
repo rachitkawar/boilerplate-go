@@ -3,19 +3,22 @@ package v1
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/rachitkawar/boilerplate-go/src/internal/domain"
+	"github.com/rachitkawar/boilerplate-go/src/internal/server/middlewares"
 )
 
 type V1 struct {
 	//all the domain mapping here
-	srv          *domain.Service
-	socialLogins *SocialLogin
+	srv                *domain.Service
+	socialLogins       *SocialLogin
+	userAuthMiddleware middlewares.AuthMiddleware
 }
 
 func InitializeV1Routes(api *gin.RouterGroup, srv *domain.Service) {
 
 	v1 := V1{
-		srv:          srv,
-		socialLogins: NewSocialLogins(srv.Auth),
+		srv:                srv,
+		socialLogins:       NewSocialLogins(srv.Auth),
+		userAuthMiddleware: middlewares.NewUserAuthMiddleware(srv.Auth),
 	}
 	v1.registerRoutesV1(api)
 }
@@ -43,7 +46,7 @@ func (router *V1) registerRoutesV1(api *gin.RouterGroup) {
 
 	roles := rg.Group("/roles")
 	{
-		roles.GET("/list")
+		roles.GET("/list", router.userAuthMiddleware.AuthorizeToken(), router.ListRoles)
 		roles.POST("/create")
 		roles.POST("/update")
 		roles.POST("/delete")
