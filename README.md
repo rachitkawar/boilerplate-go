@@ -47,8 +47,8 @@ GOOGLE_LOGIN_URL=
 SOCIAL_LOGIN_SECRET_STATE=
 JWT_SECRET=
 ```
-
-
+## Social Login 
+The boilerplate supports social login via Google and Facebook. To enable this feature, ensure you have set the appropriate environment variables (GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URL , GOOGLE_LOGIN_URL)
 ## Migrations
 
 
