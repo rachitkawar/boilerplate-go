@@ -93,3 +93,8 @@ To run this app
 make run
 ```
 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/rachitkawar/boilerplate-go/blob/master/LICENSE) file for details.
+
