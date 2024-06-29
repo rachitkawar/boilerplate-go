@@ -12,5 +12,8 @@ migrations-create:
 build:
 	go build -o ./bin/.main ./src/cmd/app/main.go
 
+dev:
+	air
+
 run:
 	./bin/.main
